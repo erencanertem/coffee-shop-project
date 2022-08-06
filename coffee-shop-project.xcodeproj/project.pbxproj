@@ -13,6 +13,7 @@
 		960C48CE289DF0D000AAFDA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960C48CC289DF0D000AAFDA3 /* Main.storyboard */; };
 		960C48D0289DF0D200AAFDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960C48CF289DF0D200AAFDA3 /* Assets.xcassets */; };
 		960C48D3289DF0D200AAFDA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960C48D1289DF0D200AAFDA3 /* LaunchScreen.storyboard */; };
+		960C48DE289DF9C200AAFDA3 /* SquarePeg-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 960C48DD289DF9C200AAFDA3 /* SquarePeg-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		960C48CF289DF0D200AAFDA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		960C48D2289DF0D200AAFDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		960C48D4289DF0D200AAFDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960C48DD289DF9C200AAFDA3 /* SquarePeg-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SquarePeg-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,17 @@
 				960C48CF289DF0D200AAFDA3 /* Assets.xcassets */,
 				960C48D1289DF0D200AAFDA3 /* LaunchScreen.storyboard */,
 				960C48D4289DF0D200AAFDA3 /* Info.plist */,
+				960C48DA289DF71600AAFDA3 /* Fonts */,
 			);
 			path = "coffee-shop-project";
+			sourceTree = "<group>";
+		};
+		960C48DA289DF71600AAFDA3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				960C48DD289DF9C200AAFDA3 /* SquarePeg-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				960C48D3289DF0D200AAFDA3 /* LaunchScreen.storyboard in Resources */,
+				960C48DE289DF9C200AAFDA3 /* SquarePeg-Regular.ttf in Resources */,
 				960C48D0289DF0D200AAFDA3 /* Assets.xcassets in Resources */,
 				960C48CE289DF0D000AAFDA3 /* Main.storyboard in Resources */,
 			);
@@ -290,6 +302,7 @@
 				DEVELOPMENT_TEAM = U722T77G63;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "coffee-shop-project/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Coffee'S";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +331,7 @@
 				DEVELOPMENT_TEAM = U722T77G63;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "coffee-shop-project/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Coffee'S";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

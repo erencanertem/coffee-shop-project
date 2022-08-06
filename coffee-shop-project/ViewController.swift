@@ -11,7 +11,17 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.navigationItem.title = "Coffee'S"
+        let appearance = UINavigationBarAppearance()
+        
+        appearance.backgroundColor = UIColor(named: "primaryColor")
+        appearance.titleTextAttributes = [.foregroundColor: UIColor(named: "titleTextColor")!,.font: UIFont(name: "SquarePeg-Regular", size: 30)!]
+        navigationController?.navigationBar.barStyle = .black
+        
+        navigationController?.navigationBar.standardAppearance = appearance
+        navigationController?.navigationBar.compactAppearance = appearance
+        navigationController?.navigationBar.scrollEdgeAppearance = appearance
     }
 
 
